@@ -35,10 +35,10 @@
 }
 
 .games{
-    display: flex;
+    text-align: center;
+    display: inline-flex;
     flex-direction: row;
     flex-wrap: wrap;
-    text-align: center;
     margin: 0;
 }
 
