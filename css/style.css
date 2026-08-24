@@ -9,8 +9,11 @@
 }
 
 .card{
+    width: 10vw;
+    min-width: 150px;
     display: flex;
     margin: 10px;
+    margin-bottom: 5px;
 }
 
 .card-content{
@@ -26,10 +29,8 @@
 
 .card-image{
     border-bottom: solid 2px black;
-    width: 300px;
-    height: 300px;
-    min-width: 10vw;
-    min-height: 10vh;
+    max-width: 100%;
+    aspect-ratio: 1/1;
     display: flex;
 }
 
