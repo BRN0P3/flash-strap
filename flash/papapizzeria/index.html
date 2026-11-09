@@ -1,23 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
 
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Papa's Pizzeria</title>
-    <link rel="stylesheet" href="../../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" defer></script>
 </head>
-
-<body>
-    <div class="center">
-        <h2>Papa's Pizzeria</h2>
-        <div class="flash">
-            <embed src="flash.swf" width="800" height="600" type="application/x-shockwave-flash">
-            </embed>
+<body class="bg-dark text-light">
+    <main class="container py-5">
+        <div class="text-center">
+            <h2 class="fw-bold mb-4">Papa's Pizzeria</h2>
+            <div class="d-flex justify-content-center mb-4">
+                <div class="ratio ratio-4x3" style="max-width: 800px; width: 100%;">
+                    <embed src="flash.swf" type="application/x-shockwave-flash" class="w-100 h-100">
+                </div>
+            </div>
+            <a href="../../index.html" class="btn btn-primary">Voltar à página inicial</a>
         </div>
-        <a href="../../index.html" class="link">Voltar à página inicial</a>
-    </div>
+    </main>
     <script src="../../ruffle/ruffle.js"></script>
 </body>
-
 </html>
